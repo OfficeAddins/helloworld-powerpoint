@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<OfficeApp 
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" 
+  xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" 
+  xsi:type="TaskPaneApp"> 
+
+  <Id>676c8e46-2a4d-4204-9831-41b21e1abe4f</Id> 
+  <Version>1.0.0.0</Version> 
+  <ProviderName>Better Solutions Limited</ProviderName> 
+  <DefaultLocale>en-US</DefaultLocale> 
+  <DisplayName DefaultValue="PowerPointJavaScriptAddIn1" /> 
+  <Description DefaultValue="PowerPointJavaScriptAddIn1"/> 
+  <SupportUrl DefaultValue="https://bettersolutions.com"/> 
+  <AppDomains> 
+    <AppDomain>AppDomain1</AppDomain> 
+  </AppDomains> 
+  <Hosts> 
+    <Host Name="Presentation" /> 
+  </Hosts> 
+  <DefaultSettings> 
+    <SourceLocation DefaultValue="http://localhost:8080/index.html" /> 
+  </DefaultSettings> 
+  <Permissions>ReadWriteDocument</Permissions> 
+</OfficeApp> 
